@@ -122,7 +122,7 @@
         container: 'map', // container ID
         // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
         style: 'mapbox://styles/tsakib360/cleierec7003g01s0zw6w0wp1', // style URL
-        center: [-77.032, 38.913], // starting position [lng, lat]
+        center: [{{$longitude}}, {{$latitude}}], // starting position [lng, lat]
         zoom: 9, // starting zoom,
         projection: 'equirectangular' // starting projection
     });
