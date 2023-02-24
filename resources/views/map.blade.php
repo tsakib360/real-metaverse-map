@@ -5,7 +5,14 @@
     <title>Display a map on a webpage</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+    <link href="{{asset('css/map.css')}}" rel="stylesheet">
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
@@ -19,11 +26,12 @@
         }
 
         .mapboxgl-popup {
-            max-width: 200px;
+            width: 1000px !important;
+            max-width: 1000px !important;
         }
 
         .mapboxgl-popup-content {
-            text-align: center;
+            /*text-align: center;*/
             font-family: 'Open Sans', sans-serif;
         }
 
@@ -92,10 +100,19 @@
             border-radius: 50%;
             cursor: pointer;
         }
+        .shopping-mall {
+            background-image: url({{asset('points/shopping-mall.png')}});
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
 <div id="map"></div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script>
     // TO MAKE THE MAP APPEAR YOU MUST
     // ADD YOUR ACCESS TOKEN FROM
@@ -208,6 +225,18 @@
                     description: 'Renewal Energy & Technology'
                 },
                 class: 'renewal-energy-technology'
+            },
+            {
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: [-118.243683, 34.052235]
+                },
+                properties: {
+                    title: 'Shopping Mall',
+                    description: 'Shopping Mall'
+                },
+                class: 'shopping-mall'
             }
         ]
     };
@@ -224,9 +253,68 @@
                 new mapboxgl.Popup({ offset: 25 }) // add popups
                     .setHTML(
                         `
-                            <h3>${feature.properties.title}</h3>
-                            <p>${feature.properties.description}</p>
-                            <a href="https://real-metaverse.vercel.app/" target="_blank">Click Here</a>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="sc-product-item style-5">
+                                    <div class="product-img">
+                                        <img src="https://famous-souffle-7b597e.netlify.app/images/all-img/v3/card2.jpg" alt="Image">
+                                    </div>
+                                    <div class="fugu--card-data">
+                                            <h3>Shopping Mall</h3>
+                                            <p>Total Shares : 10000</p>
+                                            <p>APY : 72%</p>
+                                            <div class="fugu--card-footer">
+                                                <div class="fugu--card-footer-data">
+                                                    <span>Share Price:</span>
+                                                    <h4>$1500 USDT</h4>
+                                            </div>
+                                            <a class="fugu--btn btn-sm bg-white text-white" href="/" style="background: linear-gradient(225deg,#0080ff,#7d41ea 46.35%,#ff00d4);">Buy Share</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="sc-product-item style-5">
+                                    <div class="product-img">
+                                        <img src="https://famous-souffle-7b597e.netlify.app/images/all-img/v3/card2.jpg" alt="Image">
+                                    </div>
+                                    <div class="fugu--card-data">
+                                            <h3>Shopping Mall</h3>
+                                            <p>Total Shares : 10000</p>
+                                            <p>APY : 72%</p>
+                                            <div class="fugu--card-footer">
+                                                <div class="fugu--card-footer-data">
+                                                    <span>Share Price:</span>
+                                                    <h4>$1500 USDT</h4>
+                                            </div>
+                                            <a class="fugu--btn btn-sm bg-white text-white" href="/" style="background: linear-gradient(225deg,#0080ff,#7d41ea 46.35%,#ff00d4);">Buy Share</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="sc-product-item style-5">
+                                    <div class="product-img">
+                                        <img src="https://famous-souffle-7b597e.netlify.app/images/all-img/v3/card2.jpg" alt="Image">
+                                    </div>
+                                    <div class="fugu--card-data">
+                                            <h3>Shopping Mall</h3>
+                                            <p>Total Shares : 10000</p>
+                                            <p>APY : 72%</p>
+                                            <div class="fugu--card-footer">
+                                                <div class="fugu--card-footer-data">
+                                                    <span>Share Price:</span>
+                                                    <h4>$1500 USDT</h4>
+                                            </div>
+                                            <a class="fugu--btn btn-sm bg-white text-white" href="/" style="background: linear-gradient(225deg,#0080ff,#7d41ea 46.35%,#ff00d4);">Buy Share</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                         `
                     )
             )

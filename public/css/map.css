@@ -1,0 +1,195 @@
+:root {
+    --gray-900: #26242c;
+    --gray-800: #13111a;
+    --gray-700: #e1e1e1;
+    --gray-10: #fff;
+    --primary-600: #724fe5;
+    --primary-500: #2c04fe;
+    --success-500: #32e7b1;
+    --warning-600: #eee6d0;
+    --warning-500: #ffc947;
+    --warning-400: #f0e9e1;
+    --warning-300: #fffdf5;
+    --warning-200: #f6f2e8;
+    --warning-100: #fffcf2;
+    --danger-500: #ff6b55;
+    --fs-xl-20: 20px;
+    --fs-xl-lineheight: 32px;
+    --fs-lg-18: 18px;
+    --fs-lg-lineheight: 28px;
+    --fs-md-16: 16px;
+    --fs-md-lineheight: 24px;
+    --fs-xs-14: 14px;
+    --fs-xs-lineheight: 22px;
+    --fs-xss-12: 12px;
+    --fs-xss-lineheight: 20px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.style-5 {
+    margin-bottom: 30px;
+    padding: 23px 24px 24px;
+}
+
+.sc-product-item {
+    background-color: #343444;
+    padding: 49px 23px 37px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.product-img {
+    margin-bottom: 39px;
+    position: relative;
+}
+
+.sc-product-item .product-img img {
+    width: 100%;
+    /* object-fit: cover; */
+    border-radius: 20px;
+}
+
+.sc-product-item .product-img .sc-button.style {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    padding: 10px;
+    width: 56%;
+    text-align: center;
+    border: 0px;
+    background-size: 200% auto;
+    background-image: linear-gradient(130.35deg, #6345ED 17.35%, #6345ED 78.23%);
+    color: #fff;
+    opacity: 0;
+    border: unset;
+    background-size: 200% auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.fugu--card-data {
+    margin-top: 20px;
+}
+
+.fugu--card-data h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--gray-10);
+    margin: 0 0 10px;
+    font-family: Inter,sans-serif;
+}
+
+.fugu--card-data p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--gray-10);
+    opacity: .4;
+    margin: 0;
+}
+
+.fugu--card-footer {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fugu--card-footer-data span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--gray-10);
+}
+
+.fugu--card-footer-data h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--gray-10);
+    margin: 0;
+    font-family: Inter,sans-serif;
+}
+
+.fugu--slider-one .slick-slide.slick-current.slick-active .fugu--btn {
+    color: var(--gray-10);
+}
+
+.fugu--card-footer .fugu--btn {
+    min-width: inherit;
+}
+
+.fugu--btn.btn-sm {
+    font-size: 14px;
+    padding: 8px 23px;
+}
+
+.fugu--btn {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: Inter,sans-serif;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    min-width: 180px;
+    text-align: center;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 15.5px 36px;
+}
+
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--bs-bg-opacity))!important;
+}
+
+.fugu--slider-one .slick-slide.slick-current.slick-active .fugu--btn:before {
+    opacity: 1;
+}
+
+.fugu--btn:before {
+    content: " ";
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all .4s;
+    opacity: 0;
+    border-radius: 10px;
+    background: linear-gradient(225deg,#0080ff,#7d41ea 46.35%,#ff00d4);
+}
+
+.fugu--slider-one .slick-slide.slick-current.slick-active .fugu--btn {
+    color: var(--gray-10);
+}
+
+
