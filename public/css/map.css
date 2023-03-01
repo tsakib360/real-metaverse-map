@@ -227,7 +227,8 @@ a {
 }
 
 .cBuDQz .inner-wrapper .avatar {
-    flex-basis: 162px;
+    /*flex-basis: 162px;*/
+    flex-basis: 280px;
 }
 
 .Explorer {
