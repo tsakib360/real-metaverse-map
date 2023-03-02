@@ -117,18 +117,18 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-sm">
         <div class="modal-content">
             <div class="sc-iwsKbI lvHJA">
-                <div class="FitText text-center" style="max-height: 51px; padding: 0px 15px; text-align: center; overflow: hidden; font-size: 22px;">Shopping Mall</div>
+                <div class="FitText text-center nftTitle" style="max-height: 51px; padding: 0px 15px; text-align: center; overflow: hidden; font-size: 22px;">Shopping Mall</div>
 {{--                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>--}}
 {{--                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>--}}
             </div>
             <div class="modal-body p-0">
-                <div class="ztOIu">Total Shares - 10000</div>
+                <div class="ztOIu">Total Shares - <span class="totalShare">10000</span></div>
                 <div class="sc-dHIava jCmHFN px-2">
                     <div class="sc-guztPN cBuDQz">
                         <div class="inner-wrapper">
                             <div class="avatar Explorer" id="" style="z-index: 2; transform: scale(0.78); --explorer-color:#05DD66;">
                                 <div class="image-container">
-                                    <img src="{{asset('points/shopping-mall.png')}}" alt="explorer">
+                                    <img src="{{asset('points/shopping-mall.png')}}" alt="explorer" class="nftImage">
                                     <div class="sc-feJyhm gQkodS">
                                         <div font-size="10.2px" class="sc-kafWEX cvwEAa">
                                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_496_322880)"><path d="M27.5283 18.6682L18.6682 27.5283C16.6434 29.5532 13.3604 29.5532 11.3355 27.5283L2.47546 18.6682C0.450585 16.6434 0.450585 13.3604 2.47546 11.3355L11.3355 2.47546C13.3604 0.450585 16.6434 0.450585 18.6682 2.47546L27.5283 11.3355C29.5532 13.3604 29.5532 16.6434 27.5283 18.6682Z" fill="#174bc6"></path><path opacity="0.25" d="M24.7261 14.9955C24.6484 14.6976 24.4801 14.4128 24.247 14.1667L16.3356 6.26826C15.5976 5.51724 14.4062 5.51724 13.6682 6.26826L5.75674 14.1667C5.52368 14.4128 5.35535 14.6976 5.27766 14.9955C5.09636 14.361 5.25174 13.6617 5.75674 13.1567L13.6682 5.24529C14.4062 4.50723 15.5976 4.50723 16.3356 5.24529L24.247 13.1567C24.7521 13.6617 24.9074 14.361 24.7261 14.9955Z" fill="#232323"></path><path opacity="0.25" d="M24.247 16.8471L16.3356 24.7585C15.5975 25.4966 14.4062 25.4966 13.6682 24.7585L5.75674 16.8471C5.25174 16.3421 5.09636 15.6299 5.27766 14.9955C5.35534 15.2932 5.52368 15.5781 5.75674 15.8242L13.6682 23.7356C14.4062 24.4737 15.5975 24.4737 16.3356 23.7356L24.247 15.8242C24.4801 15.5781 24.6484 15.2932 24.7261 14.9955C24.9074 15.6299 24.7521 16.3421 24.247 16.8471Z" fill="white"></path><path opacity="0.25" d="M28.9587 14.4017L17.2382 26.1221C16.0032 27.3571 14.0009 27.3571 12.7659 26.1221L1.04541 14.4017C0.973572 14.3299 0.920306 14.2475 0.856766 14.1708C0.595728 15.6465 1.0285 17.2211 2.16851 18.3612L11.6428 27.8354C13.498 29.6907 16.5061 29.6907 18.3613 27.8354L27.8356 18.3612C28.9756 17.2212 29.4084 15.6465 29.1473 14.1708C29.0838 14.2475 29.0305 14.3299 28.9587 14.4017Z" fill="#232323"></path><path opacity="0.25" d="M1.04541 15.4523L12.7659 3.73195C14.0009 2.49694 16.0032 2.49694 17.2382 3.73195L28.9587 15.4523C29.0305 15.5242 29.0838 15.6065 29.1473 15.6833C29.4084 14.2076 28.9756 12.6329 27.8356 11.4929L18.3613 2.01864C16.5061 0.163402 13.498 0.163402 11.6428 2.01864L2.16851 11.4929C1.0285 12.6329 0.595728 14.2076 0.856766 15.6833C0.920306 15.6065 0.973573 15.5242 1.04541 15.4523Z" fill="white"></path><path d="M15.0019 30C13.5857 30 12.1707 29.4626 11.0934 28.384L1.61918 18.9104C0.574711 17.866 0 16.4776 0 15.0019C0 13.525 0.575342 12.1372 1.61918 11.0934L11.0934 1.61918C12.1372 0.575342 13.525 0 15.0019 0C16.4776 0 17.866 0.574711 18.9104 1.61918L28.384 11.0934C30.5387 13.2481 30.5387 16.7545 28.3852 18.9104C28.3852 18.9104 28.3852 18.9104 28.384 18.9104L18.9104 28.384C17.8331 29.4613 16.4169 30 15.0019 30ZM15.0019 1.55406C13.9404 1.55406 12.9427 1.96691 12.1922 2.71802L2.71802 12.1922C1.96691 12.9427 1.55406 13.9404 1.55406 15.0019C1.55406 16.0628 1.96755 17.0618 2.71802 17.8129L12.1922 27.2864C13.7412 28.8341 16.2626 28.8354 17.8129 27.2851L27.2864 17.8129H27.2851C28.8341 16.2626 28.8354 13.7412 27.2864 12.1922L17.8129 2.71802C17.0617 1.96754 16.0628 1.55406 15.0019 1.55406ZM27.8352 18.3616H27.8478H27.8352Z" fill="#232323"></path></g><defs><clipPath id="clip0_496_322880"><rect width="30" height="30" fill="white"></rect></clipPath></defs></svg></div><div font-size="10.2px" class="sc-kafWEX lazSOu"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_496_322880)"><path d="M27.5283 18.6682L18.6682 27.5283C16.6434 29.5532 13.3604 29.5532 11.3355 27.5283L2.47546 18.6682C0.450585 16.6434 0.450585 13.3604 2.47546 11.3355L11.3355 2.47546C13.3604 0.450585 16.6434 0.450585 18.6682 2.47546L27.5283 11.3355C29.5532 13.3604 29.5532 16.6434 27.5283 18.6682Z" fill="#174bc6"></path><path opacity="0.25" d="M24.7261 14.9955C24.6484 14.6976 24.4801 14.4128 24.247 14.1667L16.3356 6.26826C15.5976 5.51724 14.4062 5.51724 13.6682 6.26826L5.75674 14.1667C5.52368 14.4128 5.35535 14.6976 5.27766 14.9955C5.09636 14.361 5.25174 13.6617 5.75674 13.1567L13.6682 5.24529C14.4062 4.50723 15.5976 4.50723 16.3356 5.24529L24.247 13.1567C24.7521 13.6617 24.9074 14.361 24.7261 14.9955Z" fill="#232323"></path><path opacity="0.25" d="M24.247 16.8471L16.3356 24.7585C15.5975 25.4966 14.4062 25.4966 13.6682 24.7585L5.75674 16.8471C5.25174 16.3421 5.09636 15.6299 5.27766 14.9955C5.35534 15.2932 5.52368 15.5781 5.75674 15.8242L13.6682 23.7356C14.4062 24.4737 15.5975 24.4737 16.3356 23.7356L24.247 15.8242C24.4801 15.5781 24.6484 15.2932 24.7261 14.9955C24.9074 15.6299 24.7521 16.3421 24.247 16.8471Z" fill="white"></path><path opacity="0.25" d="M28.9587 14.4017L17.2382 26.1221C16.0032 27.3571 14.0009 27.3571 12.7659 26.1221L1.04541 14.4017C0.973572 14.3299 0.920306 14.2475 0.856766 14.1708C0.595728 15.6465 1.0285 17.2211 2.16851 18.3612L11.6428 27.8354C13.498 29.6907 16.5061 29.6907 18.3613 27.8354L27.8356 18.3612C28.9756 17.2212 29.4084 15.6465 29.1473 14.1708C29.0838 14.2475 29.0305 14.3299 28.9587 14.4017Z" fill="#232323"></path><path opacity="0.25" d="M1.04541 15.4523L12.7659 3.73195C14.0009 2.49694 16.0032 2.49694 17.2382 3.73195L28.9587 15.4523C29.0305 15.5242 29.0838 15.6065 29.1473 15.6833C29.4084 14.2076 28.9756 12.6329 27.8356 11.4929L18.3613 2.01864C16.5061 0.163402 13.498 0.163402 11.6428 2.01864L2.16851 11.4929C1.0285 12.6329 0.595728 14.2076 0.856766 15.6833C0.920306 15.6065 0.973573 15.5242 1.04541 15.4523Z" fill="white"></path><path d="M15.0019 30C13.5857 30 12.1707 29.4626 11.0934 28.384L1.61918 18.9104C0.574711 17.866 0 16.4776 0 15.0019C0 13.525 0.575342 12.1372 1.61918 11.0934L11.0934 1.61918C12.1372 0.575342 13.525 0 15.0019 0C16.4776 0 17.866 0.574711 18.9104 1.61918L28.384 11.0934C30.5387 13.2481 30.5387 16.7545 28.3852 18.9104C28.3852 18.9104 28.3852 18.9104 28.384 18.9104L18.9104 28.384C17.8331 29.4613 16.4169 30 15.0019 30ZM15.0019 1.55406C13.9404 1.55406 12.9427 1.96691 12.1922 2.71802L2.71802 12.1922C1.96691 12.9427 1.55406 13.9404 1.55406 15.0019C1.55406 16.0628 1.96755 17.0618 2.71802 17.8129L12.1922 27.2864C13.7412 28.8341 16.2626 28.8354 17.8129 27.2851L27.2864 17.8129H27.2851C28.8341 16.2626 28.8354 13.7412 27.2864 12.1922L17.8129 2.71802C17.0617 1.96754 16.0628 1.55406 15.0019 1.55406ZM27.8352 18.3616H27.8478H27.8352Z" fill="#232323"></path></g><defs><clipPath id="clip0_496_322880"><rect width="30" height="30" fill="white"></rect></clipPath></defs></svg></div><div font-size="10.2px" class="sc-kafWEX fAKLNj"><span class="sc-cIShpX jWHads">19</span><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_496_322880)"><path d="M27.5283 18.6682L18.6682 27.5283C16.6434 29.5532 13.3604 29.5532 11.3355 27.5283L2.47546 18.6682C0.450585 16.6434 0.450585 13.3604 2.47546 11.3355L11.3355 2.47546C13.3604 0.450585 16.6434 0.450585 18.6682 2.47546L27.5283 11.3355C29.5532 13.3604 29.5532 16.6434 27.5283 18.6682Z" fill="#174bc6"></path><path opacity="0.25" d="M24.7261 14.9955C24.6484 14.6976 24.4801 14.4128 24.247 14.1667L16.3356 6.26826C15.5976 5.51724 14.4062 5.51724 13.6682 6.26826L5.75674 14.1667C5.52368 14.4128 5.35535 14.6976 5.27766 14.9955C5.09636 14.361 5.25174 13.6617 5.75674 13.1567L13.6682 5.24529C14.4062 4.50723 15.5976 4.50723 16.3356 5.24529L24.247 13.1567C24.7521 13.6617 24.9074 14.361 24.7261 14.9955Z" fill="#232323"></path><path opacity="0.25" d="M24.247 16.8471L16.3356 24.7585C15.5975 25.4966 14.4062 25.4966 13.6682 24.7585L5.75674 16.8471C5.25174 16.3421 5.09636 15.6299 5.27766 14.9955C5.35534 15.2932 5.52368 15.5781 5.75674 15.8242L13.6682 23.7356C14.4062 24.4737 15.5975 24.4737 16.3356 23.7356L24.247 15.8242C24.4801 15.5781 24.6484 15.2932 24.7261 14.9955C24.9074 15.6299 24.7521 16.3421 24.247 16.8471Z" fill="white"></path><path opacity="0.25" d="M28.9587 14.4017L17.2382 26.1221C16.0032 27.3571 14.0009 27.3571 12.7659 26.1221L1.04541 14.4017C0.973572 14.3299 0.920306 14.2475 0.856766 14.1708C0.595728 15.6465 1.0285 17.2211 2.16851 18.3612L11.6428 27.8354C13.498 29.6907 16.5061 29.6907 18.3613 27.8354L27.8356 18.3612C28.9756 17.2212 29.4084 15.6465 29.1473 14.1708C29.0838 14.2475 29.0305 14.3299 28.9587 14.4017Z" fill="#232323"></path><path opacity="0.25" d="M1.04541 15.4523L12.7659 3.73195C14.0009 2.49694 16.0032 2.49694 17.2382 3.73195L28.9587 15.4523C29.0305 15.5242 29.0838 15.6065 29.1473 15.6833C29.4084 14.2076 28.9756 12.6329 27.8356 11.4929L18.3613 2.01864C16.5061 0.163402 13.498 0.163402 11.6428 2.01864L2.16851 11.4929C1.0285 12.6329 0.595728 14.2076 0.856766 15.6833C0.920306 15.6065 0.973573 15.5242 1.04541 15.4523Z" fill="white"></path><path d="M15.0019 30C13.5857 30 12.1707 29.4626 11.0934 28.384L1.61918 18.9104C0.574711 17.866 0 16.4776 0 15.0019C0 13.525 0.575342 12.1372 1.61918 11.0934L11.0934 1.61918C12.1372 0.575342 13.525 0 15.0019 0C16.4776 0 17.866 0.574711 18.9104 1.61918L28.384 11.0934C30.5387 13.2481 30.5387 16.7545 28.3852 18.9104C28.3852 18.9104 28.3852 18.9104 28.384 18.9104L18.9104 28.384C17.8331 29.4613 16.4169 30 15.0019 30ZM15.0019 1.55406C13.9404 1.55406 12.9427 1.96691 12.1922 2.71802L2.71802 12.1922C1.96691 12.9427 1.55406 13.9404 1.55406 15.0019C1.55406 16.0628 1.96755 17.0618 2.71802 17.8129L12.1922 27.2864C13.7412 28.8341 16.2626 28.8354 17.8129 27.2851L27.2864 17.8129H27.2851C28.8341 16.2626 28.8354 13.7412 27.2864 12.1922L17.8129 2.71802C17.0617 1.96754 16.0628 1.55406 15.0019 1.55406ZM27.8352 18.3616H27.8478H27.8352Z" fill="#232323"></path></g><defs><clipPath id="clip0_496_322880"><rect width="30" height="30" fill="white"></rect></clipPath></defs></svg></div></div><div class="sc-feJyhm eKljdz"><div font-size="11.5px" class="sc-kafWEX bmHgPA"><span class="sc-cIShpX gnQsJj">5</span><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_496_322880)"><path d="M27.5283 18.6682L18.6682 27.5283C16.6434 29.5532 13.3604 29.5532 11.3355 27.5283L2.47546 18.6682C0.450585 16.6434 0.450585 13.3604 2.47546 11.3355L11.3355 2.47546C13.3604 0.450585 16.6434 0.450585 18.6682 2.47546L27.5283 11.3355C29.5532 13.3604 29.5532 16.6434 27.5283 18.6682Z" fill="#c019cf"></path><path opacity="0.25" d="M24.7261 14.9955C24.6484 14.6976 24.4801 14.4128 24.247 14.1667L16.3356 6.26826C15.5976 5.51724 14.4062 5.51724 13.6682 6.26826L5.75674 14.1667C5.52368 14.4128 5.35535 14.6976 5.27766 14.9955C5.09636 14.361 5.25174 13.6617 5.75674 13.1567L13.6682 5.24529C14.4062 4.50723 15.5976 4.50723 16.3356 5.24529L24.247 13.1567C24.7521 13.6617 24.9074 14.361 24.7261 14.9955Z" fill="#232323"></path><path opacity="0.25" d="M24.247 16.8471L16.3356 24.7585C15.5975 25.4966 14.4062 25.4966 13.6682 24.7585L5.75674 16.8471C5.25174 16.3421 5.09636 15.6299 5.27766 14.9955C5.35534 15.2932 5.52368 15.5781 5.75674 15.8242L13.6682 23.7356C14.4062 24.4737 15.5975 24.4737 16.3356 23.7356L24.247 15.8242C24.4801 15.5781 24.6484 15.2932 24.7261 14.9955C24.9074 15.6299 24.7521 16.3421 24.247 16.8471Z" fill="white"></path><path opacity="0.25" d="M28.9587 14.4017L17.2382 26.1221C16.0032 27.3571 14.0009 27.3571 12.7659 26.1221L1.04541 14.4017C0.973572 14.3299 0.920306 14.2475 0.856766 14.1708C0.595728 15.6465 1.0285 17.2211 2.16851 18.3612L11.6428 27.8354C13.498 29.6907 16.5061 29.6907 18.3613 27.8354L27.8356 18.3612C28.9756 17.2212 29.4084 15.6465 29.1473 14.1708C29.0838 14.2475 29.0305 14.3299 28.9587 14.4017Z" fill="#232323"></path><path opacity="0.25" d="M1.04541 15.4523L12.7659 3.73195C14.0009 2.49694 16.0032 2.49694 17.2382 3.73195L28.9587 15.4523C29.0305 15.5242 29.0838 15.6065 29.1473 15.6833C29.4084 14.2076 28.9756 12.6329 27.8356 11.4929L18.3613 2.01864C16.5061 0.163402 13.498 0.163402 11.6428 2.01864L2.16851 11.4929C1.0285 12.6329 0.595728 14.2076 0.856766 15.6833C0.920306 15.6065 0.973573 15.5242 1.04541 15.4523Z" fill="white"></path><path d="M15.0019 30C13.5857 30 12.1707 29.4626 11.0934 28.384L1.61918 18.9104C0.574711 17.866 0 16.4776 0 15.0019C0 13.525 0.575342 12.1372 1.61918 11.0934L11.0934 1.61918C12.1372 0.575342 13.525 0 15.0019 0C16.4776 0 17.866 0.574711 18.9104 1.61918L28.384 11.0934C30.5387 13.2481 30.5387 16.7545 28.3852 18.9104C28.3852 18.9104 28.3852 18.9104 28.384 18.9104L18.9104 28.384C17.8331 29.4613 16.4169 30 15.0019 30ZM15.0019 1.55406C13.9404 1.55406 12.9427 1.96691 12.1922 2.71802L2.71802 12.1922C1.96691 12.9427 1.55406 13.9404 1.55406 15.0019C1.55406 16.0628 1.96755 17.0618 2.71802 17.8129L12.1922 27.2864C13.7412 28.8341 16.2626 28.8354 17.8129 27.2851L27.2864 17.8129H27.2851C28.8341 16.2626 28.8354 13.7412 27.2864 12.1922L17.8129 2.71802C17.0617 1.96754 16.0628 1.55406 15.0019 1.55406ZM27.8352 18.3616H27.8478H27.8352Z" fill="#232323"></path></g><defs><clipPath id="clip0_496_322880"><rect width="30" height="30" fill="white"></rect></clipPath></defs></svg>
@@ -147,7 +147,7 @@
                         </div>
                     </div>
                     <div class="sc-jhaWeW kvCPjb">
-                        <div role="button" class="sc-bSbAYC jaTsI">Price Per Share - $1500</div>
+                        <div role="button" class="sc-bSbAYC jaTsI">Price Per Share - $<span class="pricePerShare">1500</span></div>
                     </div>
                 </div>
                 <div class="sc-cMljjf kRORPR">Meta Para Verse</div>
@@ -155,14 +155,14 @@
                     <div class="sc-daURTG dYtXpm home-address">
                         <div class="image-wrapper">
                             <div class="sc-epnACN hfUoNm">
-                                <img alt="" src="{{asset('points/shopping-mall.png')}}" width="58" class="sc-hXRMBi eRaMsh">
+                                <img alt="" src="{{asset('points/shopping-mall.png')}}" width="58" class="sc-hXRMBi eRaMsh nftImage">
                             </div>
                         </div>
                         <div class="text-wrapper">
-                            <a class="link" href="/?prop_id=81480817404449">Shopping Mall</a>
-                            <div class="sub-title">Total Shares: 10000</div>
-                            <div class="additional-info">Per Share Price: $1500</div>
-                            <div class="additional-info">APY: 72%</div>
+                            <a class="link nftTitle" href="/?prop_id=81480817404449">Shopping Mall</a>
+                            <div class="sub-title">Total Shares: <span class="totalShare">10000</span></div>
+                            <div class="additional-info">Per Share Price: $<span class="pricePerShare">1500</span></div>
+                            <div class="additional-info">APY: <span class="apyStats">72</span>%</div>
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,11 @@
                 },
                 properties: {
                     title: 'Service Station',
-                    description: 'Service Station'
+                    description: 'Service Station',
+                    total_share: 20000,
+                    price_per_share: 100,
+                    apy_in_percentage: 48,
+                    image: '{{asset('points/service-station.png')}}',
                 },
                 class: 'service-station'
             },
@@ -262,7 +266,11 @@
                 },
                 properties: {
                     title: 'Gas Station',
-                    description: 'Gas Station'
+                    description: 'Gas Station',
+                    total_share: 10000,
+                    price_per_share: 200,
+                    apy_in_percentage: 54,
+                    image: '{{asset('points/gas-station.png')}}',
                 },
                 class: 'gas-station'
             },
@@ -274,7 +282,11 @@
                 },
                 properties: {
                     title: 'Study Institute',
-                    description: 'Study Institute'
+                    description: 'Study Institute',
+                    total_share: 5000,
+                    price_per_share: 500,
+                    apy_in_percentage: 60,
+                    image: '{{asset('points/study-institue.png')}}',
                 },
                 class: 'study-institue'
             },
@@ -286,7 +298,11 @@
                 },
                 properties: {
                     title: 'Hospital',
-                    description: 'hospital'
+                    description: 'hospital',
+                    total_share: 5000,
+                    price_per_share: 1000,
+                    apy_in_percentage: 66,
+                    image: '{{asset('points/medical-institute.png')}}',
                 },
                 class: 'hospital'
             },
@@ -298,7 +314,11 @@
                 },
                 properties: {
                     title: 'Agricultural and Food',
-                    description: 'Agricultural and Food'
+                    description: 'Agricultural and Food',
+                    total_share: 10000,
+                    price_per_share: 2000,
+                    apy_in_percentage: 78,
+                    image: '{{asset('points/agriculture-and-food.png')}}',
                 },
                 class: 'agri'
             },
@@ -310,7 +330,11 @@
                 },
                 properties: {
                     title: 'Science and Technology',
-                    description: 'Science and Technology'
+                    description: 'Science and Technology',
+                    total_share: 10000,
+                    price_per_share: 5000,
+                    apy_in_percentage: 84,
+                    image: '{{asset('points/science-and-techno.png')}}',
                 },
                 class: 'science-and-technology'
             },
@@ -322,7 +346,11 @@
                 },
                 properties: {
                     title: 'Health, Science and Technology',
-                    description: 'Health, Science and Technology'
+                    description: 'Health, Science and Technology',
+                    total_share: 100000,
+                    price_per_share: 1000,
+                    apy_in_percentage: 72,
+                    image: '{{asset('points/health-science-technology.png')}}',
                 },
                 class: 'health-science-and-technology'
             },
@@ -334,7 +362,11 @@
                 },
                 properties: {
                     title: 'Renewal Energy & Technology',
-                    description: 'Renewal Energy & Technology'
+                    description: 'Renewal Energy & Technology',
+                    total_share: 100000,
+                    price_per_share: 1000,
+                    apy_in_percentage: 72,
+                    image: '{{asset('points/renewal-energy.png')}}',
                 },
                 class: 'renewal-energy-technology'
             },
@@ -346,7 +378,11 @@
                 },
                 properties: {
                     title: 'Shopping Mall',
-                    description: 'Shopping Mall'
+                    description: 'Shopping Mall',
+                    total_share: 10000,
+                    price_per_share: 1500,
+                    apy_in_percentage: 72,
+                    image: '{{asset('points/shopping-mall.png')}}',
                 },
                 class: 'shopping-mall'
             }
@@ -358,7 +394,7 @@
         // create a HTML element for each feature
         const el = document.createElement('div');
         el.className = feature.class;
-        el.setAttribute('onclick', 'displayModal()')
+        el.setAttribute('onclick', `displayModal('${feature.properties.title}', ${feature.properties.total_share}, ${feature.properties.price_per_share}, ${feature.properties.apy_in_percentage}, '${feature.properties.image}')`)
 
         // make a marker for each feature and add to the map
         new mapboxgl.Marker(el).setLngLat(feature.geometry.coordinates)
@@ -434,8 +470,28 @@
             .addTo(map);
     }
 
-    function displayModal() {
+    function displayModal(title, totalShare, pricePerShare, apyStats, nftImage) {
         console.log('hh');
+        let nft_title = document.getElementsByClassName('nftTitle');
+        for (let i = 0; i < nft_title.length; i++) {
+            nft_title[i].innerText = title;
+        }
+        let total_share = document.getElementsByClassName('totalShare');
+        for (let i = 0; i < total_share.length; i++) {
+            total_share[i].innerText = totalShare;
+        }
+        let price_per_share = document.getElementsByClassName('pricePerShare');
+        for (let i = 0; i < price_per_share.length; i++) {
+            price_per_share[i].innerText = pricePerShare;
+        }
+        let apy_stats = document.getElementsByClassName('apyStats');
+        for (let i = 0; i < apy_stats.length; i++) {
+            apy_stats[i].innerText = apyStats;
+        }
+        let nft_image = document.getElementsByClassName('nftImage');
+        for (let i = 0; i < nft_image.length; i++) {
+            nft_image[i].src = nftImage;
+        }
         // document.getElementById("staticBackdrop").style.display = "block";
         var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
         myModal.show()
